@@ -1,0 +1,12 @@
+@import 'utils';
+ .editor-header { 
+     background: $oc-blue-6;
+    height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    .submit { // 오른쪽 정렬 
+        margin-left: auto;
+    } 
+}
