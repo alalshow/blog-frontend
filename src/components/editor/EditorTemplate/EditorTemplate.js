@@ -35,10 +35,10 @@ class EditorTemplate extends Component {
             <div className={cx('editor-template')}> 
                 {header}  
                 <div className={cx('panes')}>  
-                <div className={cx('pane', 'editor')} style={leftStyle}> {editor}  </div>  
-                <div className={cx('pane', 'preview')} style={rightStyle}> {preview}  </div>  
-                <div  className={cx('separator')}  style={separatorStyle} onMouseDown={this.handleSeparatorMouseDown}/> 
-                </div>  
+                    <div className={cx('pane', 'editor')} style={leftStyle}> {editor}  </div>  
+                    <div className={cx('pane', 'preview')} style={rightStyle}> {preview}  </div>  
+                    <div className={cx('separator')} style={separatorStyle} onMouseDown={this.handleSeparatorMouseDown}></div> 
+                </div>
             </div>  
         );
     } 

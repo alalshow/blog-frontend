@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './PreviewPane.scss';
 import classNames from 'classnames/bind';
-const cx = classNames.bind(styles);
 import MarkdownRender from 'components/common/MarkdownRender';
+const cx = classNames.bind(styles);
 
 const PreviewPane = ({markdown, title}) => (
     <div className={cx('preview-pane')}>  
